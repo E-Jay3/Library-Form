@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet " type="text/css" href="Design.css"
+    </head>
+    <body>
+        <div class="container">
+            <div class="row col-md-6 col-md-offset-3">
+                <div class="panel panel-primary">
+                    <div class="panel-heading text-center">
+                        <h1>Library Form</h1>
+                        <h5>Luis Y. Ferrer Jr. Senior High School</h5>
+                        <h6>South Square Village, General Trias, Cavite</h6>
+        </div>
+
+        <div class="panel-body">
+            <form action="conn.php" method="post"> 
+
+                <div class="form-group">
+                    <label for="FirstName">First Name</label>
+                    <input type="text" class="form-control" id="FirstName" name="FirstName"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="LastName">Last Name</label>
+                    <input type="text" class="form-control" id="LastName" name="LastName"/>
+                </div>
+
+                   
+                <div class="form-group">
+                    <label for="MiddleName">Middle Name</label>
+                    <input type="text" class="form-control" id="MiddleName" name="MiddleName">
+                </div>
+
+                <div class="form-group">
+                    <label for="Section">Section</label>
+                    <input type="text" class="form-control" id="Section" name="Section">
+                </div>
+
+                <div class="form-group">
+                    <label for="Gender">Gender</label>
+                    <div>
+                        <label for="Male" class="radio-inline"><input type="radio" name="Gender" value="Male" id="Male"
+                        >Male</label>
+                        <label for="Female" class="radio-inline"><input type="radio" name="Gender" value="Female" id="Female"
+                        >Female</label>
+                        <label for="Others" class="radio-inline"><input type="radio" name="Gender" value="Others" id="Others"
+                        >Others</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="LRNNumber">LRN</label>
+                    <input type="number" class="form-control" id="LRN" name="LRN"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="BookNumber">Book Number</label>
+                    <input type="number" class="form-control" id="BookNumber" name="BookNumber"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="MonthBorrowed">Month Borrowed</label>
+                    <input type="text" class="form-control" id="MonthBorrowed" name="MonthBorrowed"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="DayBorrowed">Day Borrowed</label>
+                    <input type="number" class="form-control" id="DayBorrowed" name="DayBorrowed"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="Year">Year</label>
+                    <input type="number" class="form-control" id="Year" name="Year"/>
+                </div>
+
+                <input type="submit" class="btn btn-primary">
+            </form>
+        </div>
+    </body>
+
+</html>
